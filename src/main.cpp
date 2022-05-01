@@ -41,10 +41,13 @@ int table[] = {
 
 uint8_t counter = 0;
 
-void loop(){}
+void loop(){
+
+  
+
+}
 
 ISR(TIMER0_COMPA_vect) {
   PORTD = table[counter];
   counter ++;
 }
-
