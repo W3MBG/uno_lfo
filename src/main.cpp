@@ -10,7 +10,7 @@ void setup() {
 
   TCCR0B = B00000001; // set timer 1 prescaler to 1
 
-  OCR0A = 62
+  OCR0A = 255
   ; // output compare match value
 
   TIMSK0 = B00000010; // enable compare match A
